@@ -1,6 +1,6 @@
 {
   "name": "@remark/react-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "prepublishOnly": "cp -r src/ lib/",
