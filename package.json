@@ -1,0 +1,35 @@
+{
+  "name": "@remark/react-kit",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepublishOnly": "cp -r src/ lib/",
+    "format": "remark-cardinal format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remarksoftware/react-kit.git"
+  },
+  "author": "Gravic, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remarksoftware/react-kit/issues"
+  },
+  "homepage": "https://github.com/remarksoftware/react-kit#readme",
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {
+    "@remark/cardinal": "1.0.7",
+    "@types/react": "16.8.10",
+    "fork-ts-checker-webpack-plugin": "0.2.7",
+    "react": "16.8.2",
+    "react-art": "16.8.2",
+    "react-dom": "16.8.2",
+    "react-native-web": "0.10.0",
+    "ts-loader": "2.0.1",
+    "webpack": "3.5.5",
+    "webpack-merge": "3.0.0"
+  },
+  "devDependencies": {}
+}

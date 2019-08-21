@@ -1,3 +1,13 @@
+#
+# @remark/react-kit
+#
+
+lib/
+
+#
+# Node
+#
+
 # Logs
 logs
 *.log
