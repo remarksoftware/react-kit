@@ -287,23 +287,19 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@remark/cardinal@1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@remark/cardinal/-/cardinal-1.0.7.tgz#43c53e5f24e811981c40507a68be7c161140569c"
-  integrity sha512-ZGBa3TllzHnVBC758Zuy0PEeqyuN+5eWhzhyq++Y+Cr2MbviGkgNMHKjen5QWyG9KzyfHGxlawwSP1t+DcvNxA==
+"@remark/cardinal@1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@remark/cardinal/-/cardinal-1.0.9.tgz#0ba351edfee0225342d6cade92149ad8d97b65c7"
+  integrity sha512-JcUmQa0dHCsg8/ISINGEYzte2u2jvlNbAG7yeE1ntfUeadxUdscZPNumm27/p3Rq594l5UMxp6NoBvBJFMhh/A==
   dependencies:
     "@types/jest" "^24.0.11"
     cross-spawn "^6.0.5"
-    fork-ts-checker-webpack-plugin "0.2.7"
     glob "^7.1.3"
     jest "^24.7.0"
     prettier "^1.16.1"
     read-pkg-up "^4.0.0"
     ts-jest "^24.0.1"
-    ts-loader "2.0.1"
     typescript "^3.4.1"
-    webpack "3.5.5"
-    webpack-merge "3.0.0"
     which "^1.3.1"
     yargs-parser "^11.1.1"
 
