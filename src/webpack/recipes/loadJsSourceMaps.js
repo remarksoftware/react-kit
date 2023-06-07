@@ -1,7 +1,7 @@
-const webpackMerge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 
 const loadJsSourceMaps = () => config =>
-  webpackMerge(config, {
+  merge(config, {
     module: {
       rules: [
         {

@@ -1,8 +1,8 @@
 const webpack = require('webpack');
-const webpackMerge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 
 const minifyJs = () => config =>
-  webpackMerge(config, {
+  merge(config, {
     plugins: [
       new webpack.optimize.UglifyJsPlugin({
         sourceMap: true,

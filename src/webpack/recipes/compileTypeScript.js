@@ -1,4 +1,4 @@
-const webpackMerge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 const compileTypeScript = ({
@@ -6,7 +6,7 @@ const compileTypeScript = ({
   forkTypeChecking,
   compilerOptions
 }) => config =>
-  webpackMerge(config, {
+  merge(config, {
     resolve: {
       extensions: ['.ts', '.tsx', '.js']
     },
