@@ -3,6 +3,7 @@ const { merge } = require('webpack-merge');
 
 const defineEnv = (nodeEnv, additionalDefinitions) => config =>
   merge(config, {
+    mode: nodeEnv,
     plugins: [
       new webpack.DefinePlugin({
         ...(additionalDefinitions || {}),

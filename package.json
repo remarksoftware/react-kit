@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "prepublishOnly": "cp -r src/ lib/",
+    "postpublish": "rm -rf lib/",
     "format": "remark-cardinal format"
   },
   "repository": {

@@ -16,7 +16,6 @@ const compileTypeScript = ({
           test: /\.tsx?$/,
           exclude: /node_modules/,
           use: [
-            hotReload ? 'react-hot-loader/webpack' : void 0,
             {
               loader: 'ts-loader',
               options: {
