@@ -8,9 +8,9 @@ const defineEnv = (nodeEnv, additionalDefinitions) => config =>
       new webpack.DefinePlugin({
         ...(additionalDefinitions || {}),
         'process.env.NODE_ENV': JSON.stringify(nodeEnv),
-        'process.env.BROWSER': JSON.stringify(true)
-      })
-    ]
+        'process.env.BROWSER': JSON.stringify(true),
+      }),
+    ],
   });
 
 module.exports = defineEnv;

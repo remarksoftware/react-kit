@@ -8,10 +8,10 @@ const loadJsSourceMaps = () => config =>
           test: /\.js$/,
           enforce: 'pre',
           exclude: /node_modules/,
-          loader: 'source-map-loader'
-        }
-      ]
-    }
+          loader: 'source-map-loader',
+        },
+      ],
+    },
   });
 
 module.exports = loadJsSourceMaps;
