@@ -1,11 +1,12 @@
 {
   "name": "@remark/react-kit",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "",
   "scripts": {
     "prepublishOnly": "cp -r src/ lib/",
     "postpublish": "rm -rf lib/",
-    "format": "remark-cardinal format"
+    "format": "remark-cardinal format",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,11 @@
     "lib/"
   ],
   "peerDependencies": {
-    "@remark/cardinal": "1.x"
+    "@remark/cardinal": "*"
   },
   "dependencies": {
     "@types/react": "18.2.6",
+    "eslint-config-react-app": "^7.0.1",
     "fork-ts-checker-webpack-plugin": "8.0.0",
     "react": "18.2.0",
     "react-art": "18.2.0",
@@ -34,5 +36,7 @@
     "webpack": "5.82.1",
     "webpack-merge": "5.8.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@remark/cardinal": "*"
+  }
 }
