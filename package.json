@@ -26,13 +26,13 @@
   },
   "dependencies": {
     "@types/react": "^19.0.6",
-    "eslint-plugin-react": "7.34.1",
+    "eslint-plugin-react": "7.34.4",
     "fork-ts-checker-webpack-plugin": "8.0.0",
     "react": "^19.0.0",
     "react-art": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-native-web": "0.19.11",
-    "ts-loader": "9.4.2",
+    "react-native-web": "0.21.1",
+    "ts-loader": "9.4.4",
     "webpack": "5.82.1",
     "webpack-merge": "5.8.0"
   },
