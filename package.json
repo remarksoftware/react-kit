@@ -25,13 +25,12 @@
     "@remark/cardinal": "*"
   },
   "dependencies": {
-    "@types/react": "^19.2.2",
-    "eslint-plugin-react": "7.34.4",
+    "@types/react": "^19.2.8",
     "fork-ts-checker-webpack-plugin": "8.0.0",
-    "react": "^19.2.0",
-    "react-art": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-native-web": "0.21.1",
+    "react": "^19.2.3",
+    "react-art": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-native-web": "0.21.2",
     "ts-loader": "9.4.4",
     "webpack": "5.82.1",
     "webpack-merge": "5.8.0"
