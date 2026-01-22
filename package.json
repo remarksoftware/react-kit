@@ -1,6 +1,6 @@
 {
   "name": "@remark/react-kit",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "",
   "scripts": {
     "prepublishOnly": "cp -r src/ lib/",
@@ -32,7 +32,7 @@
     "react-dom": "^19.2.3",
     "react-native-web": "0.21.2",
     "ts-loader": "9.4.4",
-    "webpack": "5.82.1",
+    "webpack": "^5.104.1",
     "webpack-merge": "5.8.0"
   },
   "devDependencies": {
